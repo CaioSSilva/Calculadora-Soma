@@ -15,6 +15,7 @@ body{
     border-radius: 12px;
     justify-content: center;
     align-items: center;
+    flex-wrap:nowrap;
     padding: 15px;
     width: 400px;
 }
@@ -54,5 +55,8 @@ input{
 @media screen and (max-width: 700px) {
     #div-resultado, .content-1{
         width: auto;
+    }
+    .content-1 > div{
+        display: inline-flex;
     }
 }
