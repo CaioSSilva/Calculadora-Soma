@@ -2,6 +2,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
+    height: 98vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
